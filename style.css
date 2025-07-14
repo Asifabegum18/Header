@@ -1,0 +1,159 @@
+header{
+    height: 70px;
+    background-color:hotpink;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 40px;
+}
+.header h1{
+    font-size: 27px;
+    position: relative;
+    left: 20px;
+}
+.con{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+nav ul {
+  color: blueviolet;
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+/* Navigation links */
+nav ul li a {
+  text-decoration: none;
+  color:darkmagenta;
+  font-size: 20px;
+  padding: 6px 10px;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+  color: #0077cc;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+.main{
+    height: 540px;
+    width: 1000px;
+    text-align: center;
+    position:relative;
+    top: 30px;
+   
+}
+.main1{
+    position: relative;
+    left:120px;
+    top:120px;
+}
+.main1 h1{
+    font-size: 36px;
+}
+.main1 p{
+    font-size: 22px;
+}
+.img{ 
+    position: relative;
+    left: 200px;
+}
+button {
+      background-color: #008CBA;
+      color: white;
+      padding: 12px 24px;
+      align-items: center;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+}
+
+button:hover {
+    background-color: #006f99;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 80px;
+  gap: 100px;
+}
+
+.left-column img {
+  width: 280px;
+  height: auto;
+
+}
+
+.right-column {
+  max-width: 600px;
+}
+
+.right-column h1 {
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+
+.right-column p {
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.list{
+  display: flex;
+  gap: 40px;
+}
+
+.list ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.list ul li{
+    padding:6px;
+}
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 80px;
+  gap: 100px;
+}
+
+.img {
+  width: 280px;
+  height: 200px;
+
+}
+
+.left {
+  max-width: 600px;
+}
+
+.left h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.left h4{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+footer{
+    color: darkorchid;
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    left: 450px;
+}
+
