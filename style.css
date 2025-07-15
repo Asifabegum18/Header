@@ -38,7 +38,7 @@ nav ul li a:hover {
   border-radius: 4px;
 }
 .main{
-    height: 540px;
+    height: 560px;
     width: 1000px;
     text-align: center;
     position:relative;
@@ -155,5 +155,8 @@ footer{
     font-size: 30px;
     position: relative;
     left: 450px;
+}
+footer a{
+  text-decoration: none;
 }
 
